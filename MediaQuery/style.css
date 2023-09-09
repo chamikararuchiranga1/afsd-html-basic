@@ -1,0 +1,65 @@
+
+body {
+    background-color: brown;
+}
+
+@media only screen and (min-width: 800px){
+    body {
+        background-color: chartreuse;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    body {
+        background-color: coral;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    body {
+        /* background-color: chartreuse; */
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body {
+        /* background-color: blue; */
+    }
+}
+
+.btn {
+    width: 200px;
+    background-color: rgb(248, 193, 193);
+    padding: 15px;
+    color: wheat;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px){
+    .btn {
+        width: 200px;
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .btn {
+        width: 130px;
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .btn {
+        width: 90px;
+        background-color: orange;
+    }
+}
+
+
+/* 768 => red colour and width = 200px */ 
+/* 425 => blue colour  width = 130px*/
+/* 375 => orange  width = 90px*/
+
+/* Button  */
